@@ -28,4 +28,4 @@ Levi Hopkins
 
 ## License
 Copyright (c)  Levi Hopkins
-Open source program, anyone can make changes to it.
+Open source program, anyone can make changes to it
