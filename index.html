@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="css/styles.css" media="screen" >
+    <script src="js/jquery-3.0.0/js"></script>
+    <script src="js/scripts/js"></script>
+    <title>
+      Ping Pong
+    </title>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h2 class="text-center">Enter your number!</h2>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-5 col-sm-offset-4 well">
+          <form class="number-converter">
+            <div class="form-group">
+            <label for="users-message">Enter a Number</label>
+            <textarea placeholder="Enter a Number" rows="5" id="users-number"></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit" id="submit" class="btn btn-md-success"></button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-sm-5 col-dm-offset-4 well" id="conversion">
+        <h3>Ping Pong:</h3>
+        <p id="display-results"></p>
+      </div>
+    </div>
+  </body>
+</html>
