@@ -6,6 +6,10 @@ Program will take user input numbers and replace certain values with Either Ping
 
 -Clone from Github
 -Run in favorite browser
+
+##Github
+-My Github: https://github.com/kevlycoppers/ping-pong
+
 ##Technologies used
 HTML, css, Javascript, bootstrap, jquery
 
