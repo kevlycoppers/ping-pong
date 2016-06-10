@@ -9,7 +9,7 @@ Program will take user input numbers and replace certain values with Either Ping
 
 ##Github
 -My Github: https://github.com/kevlycoppers/ping-pong
-
+-gh-pages: http://kevlycoppers.github.io/ping-pong/
 
 ##Technologies used
 HTML, css, Javascript, bootstrap, jquery
