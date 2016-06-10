@@ -1,0 +1,10 @@
+body {
+  padding: 50px;
+}
+
+.jumbotron {
+  background-image: url(../img/pingPong.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 10% 35%
+}
