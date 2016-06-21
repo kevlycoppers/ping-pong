@@ -1,16 +1,13 @@
 //BACKEND
-var numberArray = [];
-
-
 var count = function(number){
+  var numberArray = [];
   for (var i = 1; i <= number; i++) {
     numberArray.push(i)
-    console.log(number)
   }
+  return numberArray;
 }
 
-
-var piPo = function(number) {
+var piPo = function(numberArray) {
   numberArray.forEach(function(number){
     if (number % 15 === 0) {
       numberArray[number-1] = "Ping Pong"
@@ -22,23 +19,17 @@ var piPo = function(number) {
       numberArray
     }
   });
-  return number
+  return numberArray;
 }
-
-
 
 //FRONTEND
 $(function() {
   $("form#converter").submit(function(event) {
     event.preventDefault();
-
     var inputNumber = parseInt($("#number").val());
-
+    var outputArray = count(inputNumber);
+    piPo(outputArray);
     numberArray = [];
-
-    count(inputNumber);
-    piPo(numberArray);
-    console.log(numberArray)
-    $("#display-results").text(numberArray);
+    $("#display-results").text(outputArray);
   });
 });
